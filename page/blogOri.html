@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Description" content="Blogs de videojuegos" />
+    <meta
+      name="Keywords"
+      content="juegos, blog, game, gamers, informacion de juegos, ultimos juegos"
+    />
+    <meta name="Author" content="Fix Games" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/f32c1595dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Blogs de videojuegos</title>
+  </head>
+  <body>
+    <header>
+      <nav class="contenedor navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../img/logo.png" alt="LogoFixGames" width="150" id="logo"/>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item ms-2 fs-4">
+                <a class="nav-link" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item ms-2 fs-4">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item ms-3 fs-4 bg-transparent">
+                <a class="nav-link" href="suscribirse.html" data-bs-toggle="modal"
+                data-bs-target="#modalSuscribirse"
+                  >Suscribirse</a
+                >
+              </li>
+              <li class="nav-item ms-2 fs-4">
+                <a
+                  class="nav-link"
+                  href="contacto.html"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item ms-2 fs-4">
+                <a
+                  class="nav-link"
+                  href="nuestrahistoria.html"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Nuestra historia</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="my-5">
+      <div class="container fs-2 text">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Ori</li>
+          </ol>
+        </nav>
+      </div>
+      <section class="container border border-dark rounded px-5 shadow-lg">
+        <div>
+          <h1 class="text-center rounded text-light my-4 py-1" id="titulorojo">
+            Entrada de Blog
+          </h1>
+          <p>
+            Ori deberá interactuar con su entorno saltando de plataforma en plataforma, resolviendo acertijos y enfrentándose con múltiples enemigos para cumplir con la tarea de restaurar el bosque.
+          </p>
+          <p>
+            El jugador ayudará a Ori a recolectar fragmentos de vida, fragmentos de energía, nuevas habilidades y mejoras. El mundo del juego se revela al jugador al estilo de Metroidvania - a medida que se adquieren nuevas habilidades, los jugadores pueden acceder a áreas que eran inaccesibles anteriormente.
+          </p>
+          <p>
+            El jugador puede también ganar puntos de habilidad, utilizados para adquirir mejoras y beneficios, como por ejemplo daño incrementado para las Llamas de Espíritu. Estas mejoras pueden ser compradas solo en los puntos donde se haya creado un Vínculo de Alma y solo si el jugador tiene suficientes puntos de habilidad para cubrir el costo de la mejora. Eliminando a los enemigos y destruyendo plantas varias que se encuentran en el mundo de juego Ori obtiene puntos de experiencia, un punto de habilidad es ganado solo cuando se obtienen suficientes los puntos de experiencia requeridos para ello. Las habilidades deben ser compradas de forma secuencial, siempre habiendo comprado la habilidad que la precede en el Árbol de Habilidades, y volviéndose estas cada vez más caras a medida que progresamos en el desarrollo de este árbol.
+          </p>
+        </div>
+        <div class="text-center">
+          <img
+            src="../img/carouselOri.jpg"
+            alt="Video juego"
+            class="img-fluid text-center mx-auto py-2"
+            width="100%"
+          />
+        </div>
+        <h3 class="container rounded text-light text-center my-3 py-2">
+          Dejanos tu opinion:
+        </h3>
+
+        <div class="mb-3 ms-auto">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Nombre y Apellido</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Juan Perez"
+          />
+        </div>
+        <div class="mb-3 ms-auto">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Comentario</label
+          >
+          <textarea
+            class="form-control"
+            placeholder="Deja tu comentario..."
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+          <button type="submit" class="btn btn-primary my-4" id="boton">
+            Guardar
+          </button>
+        </div>
+      </section>
+      <div class="container mt-5">
+        <h3 class="text-center rounded my-2 text-light py-2">
+          Comentarios del Blog:
+        </h3>
+      </div>
+      <section class="container pt-3">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 shadow-lg">
+              <div class="card-body">
+                <h5 class="card-title">Ana Bianchi</h5>
+                <p class="card-text">Genial !!!!</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Agregado hace 1min</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg">
+              <div class="card-body">
+                <h5 class="card-title">Laura Rodriguez</h5>
+                <p class="card-text">
+                  Son excelentes juegos para todos lo recomiendo para todos es
+                  un juego que te ayuda en la inteligencia y la estrategia de
+                  toda la vida la recomiendo a todos por favor descargenla es
+                  muy buena
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Agregado hace 30min</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg">
+              <div class="card-body">
+                <h5 class="card-title">Lourdes Ibanez</h5>
+                <p class="card-text">
+                  Hola a todos. Seré claro: el cacareado reboot de la saga ori de 2013 y su secuela me parecieron un completo exito
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Agregado hace 43min</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg">
+              <div class="card-body">
+                <h5 class="card-title">Florencia Martinez</h5>
+                <p class="card-text">
+                  increible el mejor juegos de rockstar con grand the auto 5 dfg
+                  gd gdg dgdg d d gd gdgdg d g g ddg d gdg dgd gd gdg d fgdg
+                  dfgdg dgdg g dg dgdgdfgdg df gdgdfg dg dfgg d gdfg dg
+                  djhngjghjhgjjg
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Agregado hace 2hs</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-lg">
+              <div class="card-body">
+                <h5 class="card-title">Agustin Alcaraz</h5>
+                <p class="card-text">
+                  Por la forma como se juega, sentí como si jugará a Ori conmigo dentro de ese mundo, los gráficos son geniales,
+                  los diferentes mundos y plataformas cada vez más divertidos y
+                  los jefes final
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Agregado hace 1 dia</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="p-5">
+      <section class="container">
+        <article class="row">
+          <div class="col-sm-12 col-md-4">
+            <img src="../img/logo.png" alt="Logo de Fix Games" class="w-25" id="logo" />
+            <section>
+              <h6 class="text-light mt-3">Acerca de Fix Games</h6>
+              <article class="text-light w-75">
+                <p>
+                  Fix Games es una plataforma de comunicación especializada en
+                  videojuegos, generamos nuestro propio contenido audiovisual
+                  gracias a un amplio canal de comunicación digital.
+                </p>
+              </article>
+            </section>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <h5 class="text-light mt-3">Asistencia</h5>
+            <article class="text-light enlaces-footer">
+              <ul>
+                <li><a href="paginaError.html">Cómo comprar</a></li>
+                <li><a href="paginaError.html">Preguntas frecuentes</a></li>
+                <li><a href="paginaError.html">Políticas de privacidad</a></li>
+                <li><a href="paginaError.html">Términos y condiciones</a></li>
+              </ul>
+            </article>
+            <article class="mt-5 mb-3">
+              <h5 class="text-light">Medios de pago</h5>
+            </article>
+            <article class="d-flex justify-content-start ms-2">
+              <img
+                src="../img/mastercard.jpg"
+                alt="Tarjeta Mastercard"
+                class="ms-2 mediosDePago"
+              />
+              <img
+                src="../img/visa.jpg"
+                alt="Tarjeta Visa"
+                class="ms-2 mediosDePago"
+              />
+              <img
+                src="../img/nativa.jpg"
+                alt="Tarjeta Nativa"
+                class="ms-2 mediosDePago"
+              />
+              <img
+                src="../img/mercadopago.jpg"
+                alt="Tarjeta Mercado Pago"
+                class="ms-2 mediosDePago"
+              />
+            </article>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <article class="text-center">
+              <h5 class="text-light mb-4">
+                Seguinos en nuestras redes sociales:
+              </h5>
+            </article>
+            <article class="text-center d-flex justify-content-evenly">
+              <div>
+                <a href="paginaError.html" target="_blank"><i
+                    class="fab fa-facebook-square fa-2x text-light me-2"></i></a>
+                <h6 class="text-light mt-2">Facebook</h6>
+              </div>
+              <div>
+                <a href="paginaError.html" target="_blank"><i
+                    class="fab fa-instagram-square fa-2x text-light me-2"></i></a>
+                <h6 class="text-light mt-2">Instagram</h6>
+              </div>
+              <div>
+                <a href="paginaError.html" target="_blank"><i
+                    class="fab fa-twitter-square fa-2x text-light ms-1"></i></a>
+                <h6 class="text-light mt-2">Twitter</h6>
+              </div>
+            </article>
+            <article>
+              <h5 class="text-light my-4 text-center">Descarga nuestra aplicación en:</h5>
+              <div class="text-center">
+                <div class="row">
+                  <a
+                    href="https://play.google.com/store?hl=es"
+                    target="_blank"
+                    class="col-sm-12 col-md-6"
+                    ><img
+                      src="../img/google-play-badge-bb.svg"
+                      alt="PlayStore"
+                      class="mb-3 me-2"
+                      width="100%"
+                  /></a>
+                  <a
+                    href="https://www.apple.com/"
+                    target="_blank"
+                    class="col-sm-12 col-md-6"
+                    ><img
+                      src="../img/badge-apple-store.svg"
+                      alt="AppleStore"
+                      width="100%"
+                  /></a>
+                </div>
+              </div>
+          </div>
+        </article>
+      </section>
+      <section class="text-center mt-5">
+        <p class="text-light">
+          &copy; Copyright 2021. Todos los derechos reservados
+        </p>
+      </section>
+    </footer>
+    <!-- modal -->
+    <div
+      class="modal fade"
+      id="modalSuscribirse"
+      tabindex="-1"
+      aria-labelledby="modalSuscribirseLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalSuscribirseLabel"></h5>
+            <form>
+              <div class="form-group">
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Nombre y Apellido</label>
+                  <input
+                    type="Contraseña"
+                    class="form-control"
+                    id="exampleInputPassword1"
+                    placeholder="Nazarea Rodriguez"
+                  />
+                </div>
+                <label for="exampleInputEmail1">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Ananazarea@gmail.com"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
+            </form>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Guardar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

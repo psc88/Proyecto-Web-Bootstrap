@@ -1,0 +1,206 @@
+/*********** footer ********/
+
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Ubuntu:wght@300&display=swap");
+
+h1,
+h2,
+h3 h4,
+h5,
+h6 {
+  font-family: "Otomanopee One", sans-serif;
+}
+
+footer {
+  background: rgb(27, 27, 41);
+  background: linear-gradient(
+    90deg,
+    rgba(27, 27, 41, 1) 34%,
+    rgba(12, 18, 67, 1) 49%,
+    rgba(163, 11, 11, 1) 61%
+  );
+}
+
+.mediosDePago {
+  width: 12%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(182, 28, 28);
+}
+
+.enlaces-footer li {
+  list-style: none;
+  margin-left: -27px;
+}
+
+#logo {
+  border-radius: 12px;
+}
+
+/*********** Entradas de blogs ********/
+@media all and (max-width: 576px) {
+  .slider-reponsive {
+    height: 250px;
+    object-fit: cover;
+  }
+}
+
+h3 {
+  background: #a30b0b;
+}
+#boton {
+  background: #a30b0b;
+  border-color: #a30b0b;
+}
+
+#titulorojo {
+  background: #a30b0b;
+}
+
+/*********** navBar ********/
+
+.contenedor {
+  background: rgb(27, 27, 41);
+  background: linear-gradient(
+    90deg,
+    rgba(27, 27, 41, 1) 34%,
+    rgba(12, 18, 67, 1) 49%,
+    rgba(163, 11, 11, 1) 61%
+  );
+  text-align: center;
+}
+
+#logo {
+  border-radius: 50%;
+}
+/*********** Pagina Principal ********/
+
+.hoverButoonLeerMas {
+  color: rgb(255, 0, 0);
+}
+
+.hoverButoonLeerMas:hover {
+  background: rgb(219, 99, 99);
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px rgb(37, 36, 36);
+}
+
+.imagenResponsive:hover {
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+@media all and (max-width: 639px) {
+  .sliderResponsive {
+    height: 270px;
+  }
+}
+
+/*********** login ********/
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+/*Foonts */
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/*background login*/
+.bgLogin {
+  background-color: black;
+}
+/*Logo Fix Games*/
+.logoRedondeado {
+  border-radius: 50px;
+}
+
+/*********** nuestra historia ********/
+
+/*Border radius fotos*/
+.borderFotos {
+  border-radius: 50%;
+}
+
+/*efectos en imagenes*/
+.efectos:hover {
+  position: relative;
+  bottom: 25px;
+  cursor: pointer;
+  filter: grayscale(28%) brightness(124%);
+  -webkit-filter: grayscale(28%) brightness(124%);
+  -moz-filter: grayscale(28%) brightness(124%);
+  transition: 500ms;
+}
+
+/*********** contacto ********/
+
+.mapa {
+  margin-top: 40px;
+  width: 100%;
+  height: 45vh;
+}
+
+/*********** Imagenes ********/
+
+.fila {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+
+.caja {
+  width: 23%;
+  margin: 10px;
+}
+
+.caja img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 17px gray;
+}
+
+.caja img:hover {
+  position: relative;
+  bottom: 3px;
+  right: 3px;
+  filter: blur(2px);
+  transition: 600ms;
+  filter: flex;
+  opacity: (40%);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media all and (min-width: 768px) and (max-width: 1023) {
+  .caja {
+    width: 30%;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .caja {
+    width: 95%;
+  }
+}
